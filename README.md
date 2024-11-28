@@ -6,6 +6,7 @@ This project implements a frontend for an Admin Dashboard where an admin can man
 Table of Contents Project Overview Features Technologies Used Project Structure State Management Routing & Permissions How to Run the Project
 
 Project Overview The Admin Dashboard enables the following functionalities:
+#![Screenshot (9)](https://github.com/user-attachments/assets/ed1e051b-c103-4bd9-8c54-c4419dae5047)
 --------------------------------------------------------------
 
 Admin Features View and manage users and creators. Assign or toggle roles Add new roles Add new members to the system. Creator Features Create new posts. View and manage past posts. User Features View posts. Follow and unfollow creators.
@@ -40,12 +41,13 @@ State Management The project uses React Context API and Reducer for efficient st
 ---------------------------------------------------------
 
 Context API: Manages global states such as user roles, posts, and login status, avoiding the need for prop drilling. Reducer: Centralizes state updates like adding or deleting users, toggling roles, and managing posts. Routing & Permissions Protected Routes: Ensures users can only access pages they’re authorized for, based on roles. Unauthorized users are redirected to an "Unauthorized" page.
-
+#![Screenshot (8)](https://github.com/user-attachments/assets/c8132bba-5975-4176-a0f8-a769cf01cc2f)
 Role-Based Access Control (RBAC):
 ------------------------------------------
 
 Admin: Manage users and their roles (user/creator). Creators: Create and view posts. Users: View posts and follow creators.
-
+#![Screenshot (10)](https://github.com/user-attachments/assets/615df984-840a-4cb7-af39-47f8dd3638de)
+#![Screenshot (7)](https://github.com/user-attachments/assets/98367db1-ebbb-46cf-baa0-6ad2a8ef61af)
 How to Run the Project Prerequisites Ensure you have the following installed:
 -----------------------------------------------------------
 
